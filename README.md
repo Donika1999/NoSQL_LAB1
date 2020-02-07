@@ -1,6 +1,6 @@
 # NoSQL_LAB1
 
-This lab is based on Map Reduce programs on Hadoop.
+This lab is based on **Map Reduce programs on Hadoop**.
 
 1. Setup a single node cluster Hadoop.
 
@@ -13,4 +13,11 @@ NCDC data: </br>
 
 4. With the same input file as above,  the Map Reduce program outputs the total number of requests and the total download size (in mega bytes) on monthly basis. The output contains <Year-Month, Number of Requests, Download Size> for every month like Dec-2016, Jan-2017, and so on.
 
-5. With the same input file as above, the Map Reduce program lists Timestamp, URL for which http response status has been **404**.
+5. With the same input file as above, the Map Reduce program lists Timestamp, URL for which http response status has been **404**. This is done using map only MR job.
+
+**References** : </br>
+https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html</br>
+https://github.com/tomwhite/hadoop-book/tree/master/ch02-mr-intro/src/main/java </br>
+https://data-flair.training/blogs/map-only-job-in-hadoop-mapreduce/ </br>
+https://httpd.apache.org/docs/1.3/logs.html#common </br>
+
