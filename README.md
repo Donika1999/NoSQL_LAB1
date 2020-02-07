@@ -21,3 +21,5 @@ https://github.com/tomwhite/hadoop-book/tree/master/ch02-mr-intro/src/main/java 
 https://data-flair.training/blogs/map-only-job-in-hadoop-mapreduce/ </br>
 https://httpd.apache.org/docs/1.3/logs.html#common </br>
 
+Note: </br>
+The lab content has been given by prof. PM Jat.
