@@ -29,4 +29,5 @@ public class ImageCounter {
 
 		System.exit(job.waitForCompletion(true) ? 0 : 1);
 	}
+	
 }
