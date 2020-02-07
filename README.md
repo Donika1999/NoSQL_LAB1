@@ -7,4 +7,4 @@ NCDC data: </br>
 1902: https://github.com/tomwhite/hadoop-book/blob/master/input/ncdc/all/1902.gz
 3. Input file consists of web access log produced by a web server and the Map Reduce program called "ImageCounter" counts the number of times GIF, JPG, and other image files that have been accessed by clients. The MR Job output contains three figures: number of gif requests, number of jpeg requests, and number of other images.
 4. With the same input file as above,  the Map Reduce program outputs the total number of requests and the total download size (in mega bytes) on monthly basis. The output contains <Year-Month, Number of Requests, Download Size> for every month like Dec-2016, Jan-2017, and so on.
-5. With the same input file as above, the Map Reduce program lists Timestamp, URL for which http response status has been 404.
+5. With the same input file as above, the Map Reduce program lists Timestamp, URL for which http response status has been **404**.
